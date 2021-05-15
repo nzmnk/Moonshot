@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/nikitazimenko/Documents/Git/Moonshot/Moonshot/Moonshot/Bundle-Decodable.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/nikitazimenko/Documents/Git/Moonshot/Moonshot/Moonshot/Astronaut.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/nikitazimenko/Documents/Git/Moonshot/Moonshot/Moonshot/aldrin@3x.jpg">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
