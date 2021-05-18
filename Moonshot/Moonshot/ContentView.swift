@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
-    let missions: [Mission] = Bundle.main.decode("missions.json")
+    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json") // Decoding JSON
+    let missions: [Mission] = Bundle.main.decode("missions.json") // Decoding JSON
     
     var body: some View {
         NavigationView {
@@ -19,13 +19,13 @@ struct ContentView: View {
                     
                     Image(mission.image)
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFit() // Lifehack how to set aspect ratio
                         .frame(width: 44, height: 44)
 //                        .clipShape(Circle())
                     
                     VStack(alignment: .leading) {
-                       Text(mission.displayName)
-                       Text(mission.launchDate ?? "N/A") // If no data presented -- N/A
+                        Text(mission.displayName)
+                        Text(mission.formattedLaunchDate)
                    }
                 }
             }
