@@ -16,6 +16,7 @@
 		4ADD2C02264FE215004AB63F /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD2C01264FE215004AB63F /* Astronaut.swift */; };
 		4ADD2C04264FE337004AB63F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD2C03264FE337004AB63F /* Bundle-Decodable.swift */; };
 		4ADD2C082653E3E6004AB63F /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD2C072653E3E6004AB63F /* Mission.swift */; };
+		4ADD2C0C26550A12004AB63F /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD2C0B26550A12004AB63F /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4ADD2C01264FE215004AB63F /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Astronaut.swift; path = /Users/nikitazimenko/Documents/Git/Moonshot/Moonshot/Moonshot/Astronaut.swift; sourceTree = "<absolute>"; };
 		4ADD2C03264FE337004AB63F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bundle-Decodable.swift"; path = "/Users/nikitazimenko/Documents/Git/Moonshot/Moonshot/Moonshot/Bundle-Decodable.swift"; sourceTree = "<absolute>"; };
 		4ADD2C072653E3E6004AB63F /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		4ADD2C0B26550A12004AB63F /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		4ADD2BEC264FC02E004AB63F /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				4ADD2C0B26550A12004AB63F /* MissionView.swift */,
 				4ADD2C03264FE337004AB63F /* Bundle-Decodable.swift */,
 				4ADD2C01264FE215004AB63F /* Astronaut.swift */,
 				4ADD2BFE264FE0C9004AB63F /* astronauts.json */,
@@ -160,6 +163,7 @@
 				4ADD2BEE264FC02E004AB63F /* MoonshotApp.swift in Sources */,
 				4ADD2C082653E3E6004AB63F /* Mission.swift in Sources */,
 				4ADD2C04264FE337004AB63F /* Bundle-Decodable.swift in Sources */,
+				4ADD2C0C26550A12004AB63F /* MissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
